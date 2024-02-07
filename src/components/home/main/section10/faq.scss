@@ -1,0 +1,22 @@
+
+.faqWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+.faqList{
+    
+    width: 70%;
+
+    p{
+        font-size: 0.8rem;
+    }
+}
+.faqQuestion{
+    display: flex;
+    justify-content: space-between;
+    // border: 2px solid;
+    align-items: center;
+}

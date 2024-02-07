@@ -1,0 +1,34 @@
+
+
+.section7{
+    position: relative;
+    bottom: 50px;
+    
+   
+}
+.section7Wrapper{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    // border: 2px solid;
+    align-items: center;
+    position: relative;
+    background: rgba(15, 15, 15, 0.60);
+    backdrop-filter: blur(80px);
+    
+    h1{
+        z-index: 100;
+        font-size: 2.5rem;
+    }
+    img{
+        width: 70%;
+        z-index: 150;
+    }
+}
+.circle{
+    position: absolute;
+    top: 115px;
+    filter: blur(40px);
+}

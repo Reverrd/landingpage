@@ -1,0 +1,26 @@
+
+.section5Wrapper{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    bottom: 300px;
+    
+}
+.songContainer{
+    
+    font-size: 8vw;
+    h1{
+        color: transparent;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: gray;
+    }
+}
+.songsFrame{
+    position: absolute;
+    top: 30%;
+
+    img{
+        width: 100%;
+    }
+}

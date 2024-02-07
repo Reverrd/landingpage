@@ -1,0 +1,34 @@
+.heroSection{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    // border: 2px solid green;
+    background-color: #000;
+
+    nav,.heroTxt{
+        isolation: isolate;
+    }
+   
+}
+.heroSection::before{
+    content: '';
+    background-image: url('../hero/hero_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    opacity: 0.3;
+}
+.heroSectionWrapper{
+    
+    width: 100%;
+    padding: 30px;
+}
+
+@media screen and (max-width:800px) {
+    .heroSection{
+       height: 70vh;
+    }
+}

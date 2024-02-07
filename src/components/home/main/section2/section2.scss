@@ -1,0 +1,227 @@
+@import '../section2/variable.scss';
+
+.section2Wrapper{
+    // border: 2px solid;
+    height: 100%;
+    margin-top: 60px;
+    position: relative;
+}
+
+.section2ContentTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    // border: 2px solid $primary;
+    
+}
+.section2TxtContainer{
+    display: flex;
+    width: 100%;
+    // border: 2px solid green;
+    justify-content: center;
+}
+.section2Txt{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-clip: content-box;
+    -webkit-background-clip: content-box;
+    // border: 2px solid;
+    // width: fit-content;
+    
+}
+.section2TxtLeft{
+    width: 50%;
+    // border: 2px solid brown;
+    font-size: $fs-l;
+    margin-right: 50px;
+    
+    span{
+        color: $primary;
+    }
+    
+}
+.section2TxtRight{
+    width: 40%;
+    margin-left: 50px;
+    // border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    div{
+        // border: 2px solid green;
+        width: fit-content;
+    }
+    
+}
+.text{
+    margin-bottom: 30px;
+    font-size: $fs-n;
+}
+.bigTxtContainer{
+    position: relative;
+    display: flex;
+    // border: 2px solid;
+    justify-content: center;
+
+}
+.bigTxt1{
+    position: absolute;
+    text-align: center;
+    color: $primary;
+    font-size: $fs-xl;
+    font-weight: 600;
+    z-index: 1;
+    
+
+    
+}
+.bigTxt2{
+    
+    width: fit-content;
+    // border: 2px solid pink;
+    left: 0;
+    position: relative;
+    text-align: center;
+    color: transparent;
+    font-size: $fs-xl;
+    font-weight: 600;
+    z-index: 3;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: $primary;
+    
+}
+.section2ContentUnder{
+    position: absolute;
+    left: 0;
+    top: 15px;
+    
+    padding-top: 50px;
+    padding-bottom:50px ;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    // -webkit-mask-image: linear-gradient(black, transparent);
+    width: 100%;
+    height: 20vw;
+    transform: skewY(-10deg);
+    // background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff, rgba(255, 255, 255, 0));
+    
+    animation: diagonalScroll 25s linear infinite;
+    img{
+        box-sizing: border-box;
+        width: 50%;
+        height: 100%;
+        margin-right: 10px;
+        
+       
+    }
+
+   
+}
+
+
+@keyframes diagonalScroll {
+    from{
+        transform: skewY(-10deg) translateX(0%)  
+    }
+    to{
+        transform:skewY(-10deg) translateX(-100%) 
+    }
+    
+} 
+
+.bigTxt2Wrapper{
+    position: relative;
+    display: flex;
+    // border: 2px solid;
+    justify-content: center;
+}
+
+.bigTxt3{
+    position: absolute;
+    text-align: center;
+    color: $primary;
+    font-size: $fs-xl2;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.bigTxt4{
+    width: fit-content;
+    // border: 2px solid pink;
+    left: 0;
+    position: relative;
+    text-align: center;
+    color: transparent;
+    font-size: $fs-xl2;
+    font-weight: 600;
+    z-index: 3;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: $primary;
+}
+
+.section2ContentUnder2{
+    position: absolute;
+    left: 0;
+    top: 15px;
+    
+    padding-top: 50px;
+    padding-bottom:50px ;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+    height: 20vw;
+    transform: skewY(10deg);
+    // background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff, rgba(255, 255, 255, 0));
+    
+    animation: diagonalScroll2 25s linear infinite ;
+
+    img{
+        box-sizing: border-box;
+        width: 50%;
+        height: 100%;
+        margin-right: 10px;
+    }
+}
+    @keyframes diagonalScroll2 {
+    
+    from{
+        transform: skewY(10deg) translateX(-100%)  
+    }
+    to{
+        transform:skewY(10deg) translateX(0%) 
+    }
+}
+
+@media screen and (max-width:800px) {
+    .bigTxt3{
+        
+        font-size: $fs-xlt2; 
+    }
+    .bigTxt4{
+       
+        font-size: $fs-xlt2;
+    }
+    .bigTxt1{
+       
+        font-size: $fs-xlt;
+       
+        
+    
+        
+    }
+    .bigTxt2{
+        
+       
+        font-size: $fs-xlt;
+       
+    }
+}

@@ -1,0 +1,38 @@
+.heroTxtWrapper{
+    // width: 50%;
+    // border: 2px solid;
+    margin-top: 80px;
+
+    h2{
+        font-size: 3.5vw;
+        letter-spacing: 5px;
+        
+    }
+    p{
+        font-size: 1.5vw;
+       line-height: 20px; 
+    }
+}
+.getStarted{
+    display: flex;
+    align-items: center;
+
+    img{
+        width: 30px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .heroTxtWrapper{
+
+        margin-top: 50px;
+        h2{
+            font-size: 2rem;
+            white-space: nowrap;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+}

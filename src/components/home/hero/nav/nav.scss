@@ -1,0 +1,58 @@
+@import './variable.scss';
+.navWrapper{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navSelection{
+
+    ul{
+        font-size: $fs-na;
+        display: flex;
+        list-style: none;
+
+        li{
+            margin-left: 10px;
+        }
+    }
+}
+.hamMenu{
+    display: none;
+}
+.navLeft{
+    
+    display: flex;
+    align-items: center;
+    // overflow-x: hidden;
+    button{
+        border: 1px solid gray;
+        color: #fff;
+        border-radius: 10px;
+        margin-right: 20px;
+       min-width: 100px;
+       max-width: 30px;
+       padding: 5px;
+       background-color: transparent;
+
+
+    }
+    .special{
+        background-color: $primary;
+
+}
+}
+
+@media screen and (width<=800px) {
+        .navSelection{
+            display: none;
+        }
+        .navLeft{
+            display: none;
+        }
+        .hamMenu{
+            display: block;
+        }
+}
