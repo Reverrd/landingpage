@@ -39,7 +39,7 @@
     width: 50%;
     // border: 2px solid brown;
     font-size: $fs-l;
-    margin-right: 50px;
+    margin-left: 50px;
     
     span{
         color: $primary;
@@ -48,7 +48,7 @@
 }
 .section2TxtRight{
     width: 40%;
-    margin-left: 50px;
+    margin-right: 50px;
     // border: 2px solid;
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@
 .section2ContentUnder{
     position: absolute;
     left: 0;
-    top: 15px;
+    top: -15px;
     
     padding-top: 50px;
     padding-bottom:50px ;
@@ -139,7 +139,7 @@
 .bigTxt2Wrapper{
     position: relative;
     display: flex;
-    // border: 2px solid;
+    
     justify-content: center;
 }
 
@@ -154,7 +154,7 @@
 
 .bigTxt4{
     width: fit-content;
-    // border: 2px solid pink;
+    
     left: 0;
     position: relative;
     text-align: center;
@@ -205,9 +205,10 @@
 
     .section2TxtLeft{
         width: 50%;
+        padding-right: 20px;
         // border: 2px solid brown;
         font-size: $fs-lt;
-        margin-right: 50px;
+        white-space: nowrap;
         
         span{
             color: $primary;
@@ -216,13 +217,18 @@
     }
 
     .section2TxtRight{
-        width: 40%;
-        margin-left: 50px;
-        // border: 2px solid;
+        width: 50%;
+        padding-left: 20px;
+        // white-space: nowrap;
+        // margin-left: 30px;
         display: flex;
         flex-direction: column;
-        font-size: $fs-nt;
         
+        
+    }
+    .text{
+        margin-bottom: 30px;
+        font-size: $fs-nt;
     }
     .bigTxt3{
         

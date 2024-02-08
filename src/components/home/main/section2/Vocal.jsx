@@ -11,7 +11,7 @@ const Section2 = () => {
         <div className="bigTxt2">
             VOCAL
         </div>
-        {/* <div className="section2ContentUnder">
+        <div className="section2ContentUnder"> */}
         <img src="./assets/grouppic1.jpg" alt="" />
         <img src="./assets/grouppic2.jpg" alt="" />
         <img src="./assets/grouppic3.jpg" alt="" />
@@ -21,7 +21,7 @@ const Section2 = () => {
          <img src="./assets/grouppic1.jpg" alt="" />
        
         
-      </div> */}
+      </div>
         </div>
         <div className="section2TxtContainer">
         <div className="section2Txt">
@@ -30,7 +30,7 @@ const Section2 = () => {
               What you<br/> need to know  
             </div>
             <div className="section2TxtRight">
-                    <div className='text'>At Vocal Centric, we are on a mission to redefine<br/> the choral experience. Beyond mere sheet<br/> music, we envision choir as empowered<br/> entities, providing not just notes but the<br/> knowledge, tool
+                    <div className='text'>At Vocal Centric, we are on a mission to redefine the choral experience. Beyond mere sheet music, we envision choir as empowered entities, providing not just notes but the knowledge, tool
                         
                     </div>
                 <div className="getStarted">

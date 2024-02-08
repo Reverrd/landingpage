@@ -13,9 +13,11 @@
     
 }
 .groupImg{
-    // position: absolute;
+    position: relative;
+    bottom: 10px;
     z-index: 190;
-    top: 0;
+    
+
    
     img{
         width: 100%;
