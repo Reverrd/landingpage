@@ -36,7 +36,7 @@ const Main = () => {
       <div className="section5">
         <Section5 />
       </div>
-      <div className="section6">
+      <div >
         <Section6 />
       </div>
       <div className="section7">

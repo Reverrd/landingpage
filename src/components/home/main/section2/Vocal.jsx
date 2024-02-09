@@ -51,7 +51,7 @@ const Section2 = () => {
         <div className="bigTxt4">
             CENTRIC
         </div>
-        {/* <div className="section2ContentUnder2">
+        <div className="section2ContentUnder2">
         <img src="./assets/grouppic1.jpg" alt="" />
         <img src="./assets/grouppic2.jpg" alt="" />
         <img src="./assets/grouppic3.jpg" alt="" />
@@ -64,7 +64,7 @@ const Section2 = () => {
         <img src="./assets/grouppic1.jpg" alt="" />
         <img src="./assets/grouppic3.jpg" alt="" />
         
-      </div> */}
+      </div> 
         </div>
       </div>
       

@@ -1,9 +1,7 @@
 
 
 .section6{
-    // border: 2px solid;
-    display: flex;
-    justify-content: center;
+    border: 2px solid brown;
     position: relative;
     bottom: 100px;
     margin-top: 30px;
@@ -13,6 +11,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     h1{
         margin: 0;
@@ -99,7 +99,7 @@
 
 .virtual{
     position: relative;
-    // border: 2px solid;
+
     width: fit-content;
     height: fit-content;
     margin-left: 100px;
@@ -114,4 +114,54 @@
     img{
         width: 290px;
     }
+}
+
+@media screen and (max-width:800px) {
+
+    .virtual{
+    margin-top: 40px;
+    
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    
+
+    h3{
+        right: 0;
+        
+        font-size: 2rem;
+       
+        // justify-self: center;
+        width: 100%;
+        top: 5px;
+        font-weight: 500;
+    }
+    
+    img{
+        width: 100%; 
+        height: 400px;
+    }
+}
+.getBetter{
+    border: 2px solid pink;
+    width: 100%;
+    margin-right: 0;
+    
+    h2{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+.getBetterMac{
+
+    img{
+        // width: 100%;
+    }
+}
+.contributebottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
