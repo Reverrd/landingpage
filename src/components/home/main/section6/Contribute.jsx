@@ -22,6 +22,7 @@ export default function Section6() {
         <div className="contributebottom">
           <div className="getBetter">
             <h2>Get better, see<br/>performance in real time</h2>
+            <div className="getbetterFrameContainer">
             <div className="getBetterFrame">
                 <div className="getBetterMac">
                   <img src="./assets/contributeFrame.png" alt="" />  
@@ -29,6 +30,7 @@ export default function Section6() {
                 <div className="getBetterView">
                   <img src="./assets/getBetter.png" alt="" />
                 </div>  
+            </div>
             </div>       
           </div>
           <div className="virtual">

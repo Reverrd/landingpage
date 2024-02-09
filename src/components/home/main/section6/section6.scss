@@ -1,10 +1,11 @@
 
 
 .section6{
-    border: 2px solid brown;
+    
     position: relative;
-    bottom: 100px;
-    margin-top: 30px;
+    // bottom: 100px;
+    margin-top: 150px;
+    margin-bottom: 250px;
     
 }
 .section6Wrapper{
@@ -67,10 +68,15 @@
 .contributebottom{
     display: flex;
     justify-content: space-between;
-    // border: 2px solid;
+    
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .getBetter{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     margin-right: 100px;
     
     h2{
@@ -81,28 +87,32 @@
 
 .getBetterFrame{
     position: relative;
+
 }
 .getBetterMac{
 
     img{
-        width: 300px;
+        width: 420px;
     }
 }
 .getBetterView{
     position: absolute;
     top: 3px;
-    left: 25px;
+    left: 34px;
     img{
-        width: 250px;
+        width: 350px;
     }
 }
 
 .virtual{
     position: relative;
-
-    width: fit-content;
-    height: fit-content;
-    margin-left: 100px;
+    top: 32px;
+    
+    display: flex;
+    flex: 1;
+    // width: fit-content;
+    // height: fit-content;
+    margin-left: 0px;
     h3{
         margin: 0;
         text-align: center;
@@ -113,6 +123,7 @@
     }
     img{
         width: 290px;
+        height: 270px;
     }
 }
 
@@ -120,7 +131,7 @@
 
     .virtual{
     margin-top: 40px;
-    
+    top: 0;
     width: 100%;
     margin-left: 0;
     display: flex;
@@ -140,11 +151,11 @@
     
     img{
         width: 100%; 
-        height: 400px;
+        height: 300px;
     }
 }
 .getBetter{
-    border: 2px solid pink;
+    
     width: 100%;
     margin-right: 0;
     
@@ -163,5 +174,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  
+}
+
+.getbetterFrameContainer{
+    display: flex;
+    justify-content: center;
+
+    
 }
 }
