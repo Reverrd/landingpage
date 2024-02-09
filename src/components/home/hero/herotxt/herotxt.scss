@@ -36,3 +36,17 @@
         }
     }
 }
+
+@media screen and (max-width:380px) {
+    .heroTxtWrapper{
+
+        margin-top: 50px;
+        h2{
+            font-size: 1.2rem;
+            white-space: nowrap;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
+}

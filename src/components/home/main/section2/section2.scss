@@ -157,7 +157,7 @@
     font-size: $fs-xl2;
     font-weight: 600;
     z-index: 3;
-    -webkit-text-stroke: 1px;
+    -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: $primary;
 }
 
@@ -256,5 +256,18 @@
     .section2ContentUnder2{
        
         top: 25px;
+    }
+}
+@media screen and (max-width:596px) {
+    .section2ContentUnder{
+       
+        left: 0;
+        top: 30px;
+    }
+    .section2ContentUnder2{
+        
+        left: 0;
+        top: 10px;
+       
     }
 }

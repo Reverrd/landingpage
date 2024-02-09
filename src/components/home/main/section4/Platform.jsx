@@ -50,7 +50,7 @@ export default function Section4() {
                     </div>
                 </div>
                 
-                <div className="circle"></div>
+                {/* <div className="circle"></div> */}
             
             </div>
             
