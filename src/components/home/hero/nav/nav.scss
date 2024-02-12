@@ -45,7 +45,7 @@
 }
 }
 
-@media screen and (width<=800px) {
+@media screen and (max-width:800px) {
         .navSelection{
             display: none;
         }
@@ -54,5 +54,16 @@
         }
         .hamMenu{
             display: block;
+        }
+        .menu{
+            font-size: 45px !important;
+            cursor: pointer;
+        }
+        .logo{
+            
+            img{
+                width: 25vw;
+                min-width: 15vw;
+            }
         }
 }

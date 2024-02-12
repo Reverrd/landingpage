@@ -6,11 +6,11 @@ $primary: #F87E03;
     
     width: 100%;
     height: 70vh;
-    
+
 }
 .section4Wrapper{
     height: 100%;
-    display: flex;
+    // display: flex;
     flex-direction: column;
     // border: 2px solid;
     align-items: center;
@@ -53,12 +53,23 @@ $primary: #F87E03;
 .listTxt{
     margin-left: 20px;
 }
+.listMobileImage{
+    display: none;
+}
+.listMobileTxt{
+    display: none;
+}
 .section4Left{
     width: 40%;
     z-index: 14;
     // border: 2px solid goldenrod;
     // margin-left: 200px;
     margin-right: 50px;
+
+    #h2Mobile{
+        display: none;
+        
+    }
 }
 .section4LeftList{
     // font-size: 0.75rem;
@@ -68,7 +79,9 @@ $primary: #F87E03;
         
     }
 }
-
+#getStartedMobile{
+    display: none;
+}
 
 .circle{
     position: absolute;
@@ -102,14 +115,90 @@ $primary: #F87E03;
         height: 70vh;
     }
 }
-
-@media screen and (max-width:580) {
+//mobile view
+@media screen and (max-width:580px) {
+    .listImage,.listTxt{
+       display: none;
+    }
+    .listMobileImage,.listMobileTxt{
+        display: block;
+    }
+   
     .section4Top{
-        border: 2px solid;
         display: flex;
         flex-direction: column;
+        
+        height: fit-content;
+        
+        
+              
+        
+    }
+   
+    .section4Left{
+        width: 90%;
+        
+       display: flex;
+       justify-content: center;
+        margin-right: 0;
+        margin-bottom: 10px;
+        h2{
+          display: none;
+        }
+        #h2Mobile{
+            display: block;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+       
+    }
+    
+
+       
+    #getStartedPlatform{
+        display: none;
+    }
+    #getStartedMobile{
+        display: block;
+        padding: 30px;
+        
     }
     .section4Right{
         display: flex;
+        flex-direction: column;
+        width: 90%;
+        z-index: 12;
+        
+        
+        margin-left: 0;
+
+        img{
+            border: 2px solid rgb(255, 255, 255, 0.6);
+            padding: 10px;
+            margin-right:10px ;
+            width: 55px;
+            height: 70px;
+            margin-bottom: 0;
+        }
+    }
+    .section4RightList{
+        
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        h3{
+            
+            padding: 0;
+            margin-top: 10px;
+            margin-bottom: 5px;
+
+        }
+
+        p{
+            
+            margin-top: 0;
+            margin-bottom:10px ;
+        }
     }
 }

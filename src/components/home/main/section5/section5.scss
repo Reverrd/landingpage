@@ -4,7 +4,7 @@
     display: flex;
     position: relative;
     justify-content: center;
-
+    
     
 }
 .songContainer{
@@ -22,5 +22,21 @@
 
     img{
         width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .songContainer{
+        font-size: 12vw
+    }
+    .songsFrame{
+        
+        top: 40%;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .section5Wrapper{
+        margin-top: 100px;
     }
 }

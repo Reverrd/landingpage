@@ -6,16 +6,16 @@ export default function Section6() {
     <>    <div className='section6'>
       <div className="section6Wrapper" data-aos='zoom-in-up'>
         <div className="section6Txt">
-        <h1>Contribute to the community, add vocal part</h1>
+        <h1>Contribute to the community</h1>
         <p>Rehearse easily with VocalCentric from the comfort of your home, office or wherever you find yourself</p>
         </div>
         <div className="contributeFrame">
             <div className="contributeFrameWrapper">
             <div className="contributeMac">
-                <img src="./assets/contributeFrame.png" alt="" />
+                <img src="./assets/contributeFrame.png" alt="" width='1024px'  />
             </div>
             <div className="contributeView">
-                <img className='contView' src="./assets/Contview.png" alt="" />
+                <img className='contView' src="./assets/Contview.png" alt="" width='831'  />
             </div>
             </div>
         </div>

@@ -17,7 +17,7 @@ const Nav = () => {
         </ul>
       </div>
       <div className="hamMenu">
-        <Menu/>
+        <Menu className='menu'/>
       </div>
       <div className="navLeft">
         <div>
