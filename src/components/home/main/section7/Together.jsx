@@ -7,7 +7,7 @@ export default function Section7() {
         <div className="section7Wrapper">
             <h1>Bring your team together</h1>
             <img data-aos='zoom-in' src="./assets/togetherframe.png" alt="" />
-            <div className="circle"></div>
+            <div className="circle" id='circleMobile'></div>
         </div>
       </div>
     </>

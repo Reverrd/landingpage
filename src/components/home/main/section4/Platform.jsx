@@ -72,8 +72,8 @@ export default function Section4() {
                     </div>
                 </div>
                 
-                {/* <div className="circle"></div> 
-             */}
+                <div className="circle" id='circleMobile'></div> 
+             
              <div id='getStartedMobile' className="getStarted">
                         <span>
                         Get Started
