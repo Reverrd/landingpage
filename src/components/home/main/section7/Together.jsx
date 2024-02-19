@@ -1,6 +1,7 @@
 import './section7.scss'
 import useAOS from '../main/useAOS'
 export default function Section7() {
+  useAOS()
   return (
     <>
       <div className="section7">

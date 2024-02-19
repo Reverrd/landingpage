@@ -1,7 +1,8 @@
+import useAOS from '../main/useAOS'
 import './section6.scss'
 
 export default function Section6() {
-  
+  useAOS()
   return (
     <>    <div className='section6'>
       <div className="section6Wrapper" data-aos='zoom-in-up'>
