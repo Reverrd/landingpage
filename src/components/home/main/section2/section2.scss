@@ -1,5 +1,5 @@
 @import '../section2/variable.scss';
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Space+Grotesk:wght@300..700&display=swap');
 .section2Wrapper{
     
     height: 100%;
@@ -76,6 +76,7 @@
     font-size: $fs-xl;
     font-weight: 600;
     z-index: 1;
+    font-family: "Space Grotesk", sans-serif;
     
 
     
@@ -83,7 +84,7 @@
 .bigTxt2{
     
     width: fit-content;
-    
+    font-family: "Space Grotesk", sans-serif;
     left: 0;
     position: relative;
     text-align: center;
@@ -162,11 +163,12 @@
     font-size: $fs-xl2;
     font-weight: 600;
     z-index: 1;
+    font-family: "Space Grotesk", sans-serif;
 }
 
 .bigTxt4{
     width: fit-content;
-    
+    font-family: "Space Grotesk", sans-serif;
     left: 0;
     position: relative;
     text-align: center;
