@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footerWrapper">
         <div className='footerLogo'>
         <img src="./assets/logo.png" alt="" />
-         <p>&copy; 2023 VocalCentric.<br/>cloned by Promise</p>  
+         <p className='lgP'>&copy; 2023 VocalCentric.<br/>cloned by Promise</p>  
         </div>
         <div className='quicklinks'>
             <h4>Quick Links</h4>
@@ -28,6 +28,7 @@ export default function Footer() {
            <p>X(twitter)</p>
            <p>Youtube</p>
         </div>
+        <p className='mobileP'>&copy; 2023 VocalCentric.<br/>cloned by Promise</p>  
       </div>
     </div>
   )
