@@ -12,6 +12,7 @@ import Section8 from '../section8/OurPricing';
 import Section9 from '../section9/TheTeam';
 import Faq from '../section10/Faq';
 import Music from '../section11/Music';
+import Footer from '../../footer/Footer';
 const Main = () => {
  
   return (
@@ -53,6 +54,9 @@ const Main = () => {
       </div>
       <div className="section11">
         <Music />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
     </div>

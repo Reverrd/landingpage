@@ -16,7 +16,7 @@ export default function Music() {
                     </div>
         </div>
         
-      
+      <hr className='musicLine' />
     </div>
   )
 }
