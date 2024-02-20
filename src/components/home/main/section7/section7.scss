@@ -25,6 +25,17 @@
     img{
         width: 70%;
         z-index: 150;
+        animation: bounce 3s infinite alternate;
+    }
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(0);
+    }
+    
+    100%{
+        transform: translateY(-20px);
     }
 }
 .circle{
