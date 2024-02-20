@@ -1,11 +1,22 @@
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './nav.scss'
 import {Close, Menu } from '@mui/icons-material'
 const Nav = () => {
 const [isClicked, setIsClicked] = useState(false);
+const [isScrolled, setIsScrolled] = useState(false)
 
+useEffect (()=>{
+  const handleScroll = ()=>{
+    setIsScrolled(window.scrollY > 0);
+  };
 
+  window.addEventListener('scroll', handleScroll);
+
+  return ()=>{
+    window.removeEventListener('scroll', handleScroll)
+  }
+}, [])
 
 const menuClick = ()=>{
   setIsClicked(true)
@@ -47,7 +58,7 @@ const mobileNav = isClicked &&
   </div>
 </div>)
   return (
-    <div className='navWrapper'>
+    <div className={`navWrapper ${isScrolled ? 'scrolled' : ''}`}>
       <div className="logo">
         <img src="./assets/logo.png" alt="" />
       </div>

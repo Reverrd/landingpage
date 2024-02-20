@@ -5,6 +5,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: position 10s ease;
+}
+.navWrapper.scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    // right: 0;
+    z-index: 1000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .navSelection{
