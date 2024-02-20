@@ -4,6 +4,7 @@ import HeroTxt from './herotxt/HeroTxt'
 const Hero = () => {
   return (
     <div className='heroSection' >
+      <div className='background'></div>
       <div className="heroSectionWrapper">
         <nav>
             <Nav/>
